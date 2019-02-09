@@ -1,0 +1,31 @@
+$progress-bar-bg: #404040;
+
+.progress-bar {
+    height: 12px;
+    position: relative;
+    width: 100%;
+
+    &__bg {
+        background-color: $progress-bar-bg;
+        border-radius: 2px;
+        display: flex;
+        height: 4px;
+        width: 100%;
+    }
+}
+
+.progress-bar-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+
+    &__fg {
+        background-color: $main-color;
+        border-radius: 2px;
+        height: 4px;
+        width: 100%;
+        // @todo needs to be dynamic remove this
+        transform: translateX(-60%);
+    }
+}
