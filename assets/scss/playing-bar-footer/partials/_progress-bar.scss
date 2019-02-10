@@ -12,6 +12,16 @@ $progress-bar-bg: #404040;
         height: 4px;
         width: 100%;
     }
+
+    &__slider {
+        width: 12px;
+        height: 12px;
+        background-color: $color-white;
+        border-radius: 50%;
+        z-index: 11;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
 }
 
 .progress-bar-wrapper {
@@ -27,5 +37,9 @@ $progress-bar-bg: #404040;
         width: 100%;
         // @todo needs to be dynamic remove this
         transform: translateX(-60%);
+
+        &:hover {
+            background-color: $active-color;
+        }
     }
 }

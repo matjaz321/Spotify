@@ -6,4 +6,15 @@
     min-width: 3.2rem;
     height: 3.2rem;
     position: relative;
+
+    &:hover {
+        color: $color-white;
+    }
+
+    &__pause-button svg {
+        left: -2px;
+        top: -2px;
+        position: absolute;
+        transform: scale(1.2);
+    }
 }

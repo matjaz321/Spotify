@@ -2,4 +2,9 @@
     align-items: center;
     width: 13.6rem;
     display: flex;
+
+    &__progress-bar {
+        margin-bottom: 6px;
+        // width: 100%;
+    }
 }

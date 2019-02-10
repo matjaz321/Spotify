@@ -12,9 +12,10 @@
         text-align: left;
     }
 
-    &__name,
-    &__artists {
+    &__name a,
+    &__artists span {
         &:hover {
+            padding-bottom: 1px;
             cursor: pointer;
             text-decoration: none;
             border-bottom: 1px solid $rgba-color;
