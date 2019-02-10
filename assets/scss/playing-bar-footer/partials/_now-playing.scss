@@ -12,4 +12,8 @@
         flex-shrink: 0;
         position: relative;
     }
+
+    &__ctrl-button svg {
+        transform: scale(.7);
+    }
 }
