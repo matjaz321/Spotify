@@ -1,17 +1,2 @@
-// Modules and Variables
-@import "partials/base";
-
-// Partials
-@import "partials/reset";
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/figures";
-@import "partials/links";
-@import "partials/control-button";
-@import "partials/player-controls";
-@import "partials/playback-bar";
-@import "partials/progress-bar";
-@import "partials/now-playing-inner";
-@import "partials/volume-bar";
-@import "partials/grids";
-@import "partials/now-playing-footer";
+@import "site/base";
+@import "playing-bar-footer/base";
