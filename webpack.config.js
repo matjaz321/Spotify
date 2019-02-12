@@ -41,6 +41,9 @@ Encore
     // enables Sass/SCSS support
     .enableSassLoader()
 
+    // enables vue loader
+    .enableVueLoader()
+
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
 

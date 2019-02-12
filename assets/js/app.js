@@ -6,6 +6,8 @@
  */
 
  import '../scss/app.scss';
+ require('./modules/footer-buttons/saveToPlaylist');
+ require('./modules/footer-buttons/playerControlButtons.js');
 
- const imagesContext = require.context('../images', true, /\.(png|jpg|jpeg|gif|ico|svg|webp)$/);
+const imagesContext = require.context('../images', true, /\.(png|jpg|jpeg|gif|ico|svg|webp)$/);
 imagesContext.keys().forEach(imagesContext);

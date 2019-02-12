@@ -11,10 +11,51 @@
         color: $color-white;
     }
 
-    &__pause-button svg {
-        left: -2px;
-        top: -2px;
-        position: absolute;
+    &:focus {
+        outline: none;
+    }
+
+    &__pause-button  {
         transform: scale(1.2);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 500px;
+        border: 1px solid hsla(0,0%,100%,.6);
+    }
+
+    &__play-icon {
+        position: absolute;
+        top: -1px;
+        left: 2px;
+    }
+
+    &__pause-icon {
+        transform: scale(.6);
+        position: absolute;
+        top: -1px;
+        left: 0;
+    }
+
+    &--active {
+        color: $active-color;
+
+        &:hover {
+            color: $active-color-hover;
+        }
+    }
+
+    &--active-dot::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: $active-color;
+        transform: translateX(-50%);
     }
 }
