@@ -29,5 +29,9 @@
         letter-spacing: .015em;
         text-align: left;
         color: $atists-text-color;
+
+        span:hover {
+            color: $color-white;
+        }
     }
 }
